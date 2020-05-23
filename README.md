@@ -1,7 +1,7 @@
 # Bobo
 
 ## Descripción
-esto todavia no se que poner pero es un intento de asistente personal ***asistente personal*** 
+esto todavia no se que poner pero es un intento de ***asistente personal*** 
 
 ## Instalación
 
