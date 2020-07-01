@@ -1,0 +1,2 @@
+pyserial~=3.4
+setuptools~=47.3.1
