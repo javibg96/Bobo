@@ -1,0 +1,20 @@
+config_version: 1.1
+project: people
+datalake: mobility
+environment: pro
+layer: ld
+sources:
+  local:
+    local01:
+      origin: local
+      path: C:\Users\JBLASCO\Downloads\visData\HSE_Localizaciones_FULL_20190819030055.csv
+      country: españa
+
+validations:
+  local:
+    local01:
+      - id:
+          column: Padre
+          threshold: 0
+          is_percentage_threshold: true
+          length: 6
