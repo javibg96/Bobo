@@ -1,7 +1,7 @@
 # Bobo
 
 ## Descripción
-esto todavia no se que poner pero es un intento de asistente personal ***asistente personal*** 
+Bobo is going to be a ***personal assistant bot*** but right now it is just the project structure
 
 ## Instalación
 
