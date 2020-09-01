@@ -22,17 +22,29 @@ class Cerebro:
         m = spoty.Musica()
         if "Spotify" or "música" in texto2:
             self.voz.habla("Iniciando música...")
-            busqueda = texto2.replace("musica", "").replace("Spotify", "").replace(" en ", "").replace(" in ", "").replace(" and ", "").replace(" ", "+")
+            busqueda = texto2.replace("musica", "").replace("Spotify", "").replace(" en ", "").replace(" in ",
+                                                                                                       "").replace(
+                " and ", "").replace(" ", "+")
             print(busqueda)
             m.music("busqueda")
-
         texto3 = stt.stt_input()
+        comandos = ["wikipedia", "maps"]
+
         while texto3 == "UnknownValueError":
             texto3 = stt.stt_input()
             print(texto3)
 
-        if "para" in texto3:
-            m.para()
+            if "para" == texto3:
+                m.para()
+
+            elif texto3 != "UnknownValueError":
+                self.voz.habla("me quedo a la espera de nuevas ordenes, señor")
+
+            for comando in comandos:
+                if comando not in texto3:
+                    if "para" != texto3:
+                        self.voz.habla("Comando no reconocido")
+                    texto3 = "UnknownValueError"
 
 
 if __name__ == "__main__":
