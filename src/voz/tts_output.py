@@ -11,10 +11,6 @@ class Voz:
         self.engine.say("hola, soy Bobo")
         self.engine.runAndWait()
 
-
     def habla(self, frase):
-
         self.engine.say(frase)
         self.engine.runAndWait()
-
-
