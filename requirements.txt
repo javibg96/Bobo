@@ -4,3 +4,6 @@ pyttsx3~=2.90
 requests~=2.24.0
 beautifulsoup4~=4.9.1
 selenium~=3.141.0
+opencv-python
+cmake
+dlib>=19.8.1

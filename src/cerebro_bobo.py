@@ -1,4 +1,5 @@
 import src.interfaz.interfaz_handler as interfaz
+import src.interfaz.face_recon as f_r
 import src.voz.stt_input_understanding as stt
 import src.voz.tts_output as tts
 import src.music_handler.spoty_handler as spoty
@@ -10,6 +11,11 @@ class Cerebro:
         self.voz = tts.Voz()
 
     def funciona(self):
+        face = f_r.recon()
+        if face:
+            self.voz.habla("Hola Javier, que tal esta")
+        else:
+            self.voz.habla("Disculpe señor, no le reconozco")
         texto = stt.stt_input()
         while texto == "UnknownValueError":
             self.voz.habla("Disculpe señor, no he logrado entenderle, ¿Puede repetirmelo?")
@@ -24,9 +30,9 @@ class Cerebro:
             self.voz.habla("Iniciando música...")
             busqueda = texto2.replace("musica", "").replace("Spotify", "").replace(" en ", "").replace(" in ",
                                                                                                        "").replace(
-                " and ", "").replace(" ", "+")
+                " and ", "").replace(" ", "+").replace("Youtube", "")
             print(busqueda)
-            m.music("busqueda")
+            m.music(busqueda)
         texto3 = stt.stt_input()
         comandos = ["wikipedia", "maps"]
 

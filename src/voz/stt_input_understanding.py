@@ -8,7 +8,7 @@ def stt_input():
         text = r.listen(source)
 
         try:
-            recognised_text = r.recognize_google(text)
+            recognised_text = r.recognize_google(text, language="es-ESP")
         except sr.UnknownValueError:
             recognised_text = "UnknownValueError"
             logging.exception("error traceback")

@@ -134,3 +134,4 @@ dmypy.json
 
 src/music_handler/creds.cfg
 src/interfaz/aplicaciones_guardadas.txt
+src/opencv_foto.png

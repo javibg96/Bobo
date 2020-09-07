@@ -8,7 +8,6 @@ class Voz:
         self.engine.setProperty("voice", voices[2].id)
         rate = self.engine.getProperty('rate')  # getting details of current speaking rate
         self.engine.setProperty('rate', 150)  # setting up new voice rate
-        self.engine.say("hola, soy Bobo")
         self.engine.runAndWait()
 
     def habla(self, frase):
