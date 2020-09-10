@@ -1,26 +1,58 @@
 {
-  "en Spotify": {
-    "tipo": "musica",
-    "respuesta": "Iniciando música..."
+  "hola": {
+    "tipo": "conversación",
+    "respuesta": "Encantado señor, digame que quiere que haga"
   },
-  "Spotify": {
+  "como estas": {
+    "tipo": "conversación",
+    "respuesta": "muy bien, ¿y usted?"
+  },
+  "qué tal": {
+    "tipo": "conversación",
+    "respuesta": "muy bien, ¿y usted?"
+  },
+  "bien": {
+    "tipo": "conversación",
+    "respuesta": "me alegro"
+  },
+  "cuentame algo": {
+    "tipo": "conversación",
+    "respuesta": "La verdad señor solo estoy en modo de rueba, cuando tenga mayor capacidad mejorare mi respuesta"
+  },
+  " spotify": {
+    "tipo": "musica_spoti",
+    "respuesta": "Iniciando spotify..."
+  },
+  "spoty": {
+    "tipo": "musica_spoti",
+    "respuesta": "Iniciando spotify"
+  },
+  "spotify ": {
+    "tipo": "musica_spoti",
+    "respuesta": "Iniciando spotify"
+  },
+  "inicia spotify": {
+    "tipo": "musica_spoti",
+    "respuesta": "Iniciando spotify"
+  },
+  "inicia youtube": {
     "tipo": "espera",
     "respuesta": "¿Que canción quiere señor?"
   },
-  "inicia Spotify": {
+  "youtube.": {
     "tipo": "espera",
     "respuesta": "¿Que canción quiere señor?"
   },
-  "Youtube": {
+  "en youtube": {
+    "tipo": "musica",
+    "respuesta": "Iniciando youtube..."
+  },
+  "musica ": {
+    "tipo": "musica",
+    "respuesta": "Iniciando música..."
+  },
+  "inicia musica": {
     "tipo": "espera",
     "respuesta": "¿Que canción quiere señor?"
-  },
-  "spoti ": {
-    "tipo": "musica",
-    "respuesta": "Iniciando música..."
-  },
-  "Youtube ": {
-    "tipo": "musica",
-    "respuesta": "Iniciando música..."
   }
 }

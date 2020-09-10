@@ -9,9 +9,8 @@ class Musica:
 
     def music(self, raw_busqueda):
         print("estoy en musica")
-        busqueda = raw_busqueda.replace("musica", "").replace("Spotify", "").replace(" en ", "").replace(" in ",
-                                                                                                         "").replace(
-            " and ", "").replace(" ", "+").replace("Youtube", "")
+        busqueda = raw_busqueda.replace("musica", "").replace(" en ", "").replace(" in ", "").replace(" and ", "")\
+            .replace(" ", "+").replace("Youtube", "")
         # Optional argument, if not specified will search path.
         print(busqueda)
         self.driver.get(f'https://www.youtube.com/results?search_query={busqueda}')
