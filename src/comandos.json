@@ -1,0 +1,26 @@
+{
+  "en Spotify": {
+    "tipo": "musica",
+    "respuesta": "Iniciando música..."
+  },
+  "Spotify": {
+    "tipo": "espera",
+    "respuesta": "¿Que canción quiere señor?"
+  },
+  "inicia Spotify": {
+    "tipo": "espera",
+    "respuesta": "¿Que canción quiere señor?"
+  },
+  "Youtube": {
+    "tipo": "espera",
+    "respuesta": "¿Que canción quiere señor?"
+  },
+  "spoti ": {
+    "tipo": "musica",
+    "respuesta": "Iniciando música..."
+  },
+  "Youtube ": {
+    "tipo": "musica",
+    "respuesta": "Iniciando música..."
+  }
+}
