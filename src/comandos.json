@@ -54,5 +54,17 @@
   "inicia musica": {
     "tipo": "espera",
     "respuesta": "¿Que canción quiere señor?"
+  },
+  "wikipedia": {
+    "tipo": "wikipedia",
+    "respuesta": "iniciando búsqueda de resultados..."
+  },
+  "quién es": {
+    "tipo": "wikipedia",
+    "respuesta": "iniciando búsqueda de resultados..."
+  },
+  "qué es": {
+    "tipo": "wikipedia",
+    "respuesta": "iniciando búsqueda de resultados..."
   }
 }
